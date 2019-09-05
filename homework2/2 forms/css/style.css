@@ -1,0 +1,29 @@
+header{
+    height: 30px;
+    width: 600px;
+    text-align: center;
+    line-height: 30px;
+    background: #ffcc00;
+}
+
+form{
+    width: 600px;
+    background: #ffff99;
+    padding: 1px;
+}
+.form-header{
+    text-align: center;
+}
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-top: 5px;
+}
+.form-radio{
+  margin-left: 204px;
+}

@@ -2,9 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The world fruit</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>The World of Fruit</header>
+<form action="Fruit.io">
+<p class="form-header">Fruit Survey</p>
+    <div class="form-container">
+        <div class="form-row">
+            <label for="username">Name</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div class="form-row">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address">
+        </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form-row">
+            <label for="question">How many pieces of fruit do you eat per day?</label>
+            <input type="radio" name="0" id="question">
+        </div>
+        <div class="form-radio">
+            <input type="radio" name="1" id="1">
+            <label for="1">1</label>
+        </div>
+        <div class="form-radio">
+            <input type="radio" name="2" id="2">
+            <label for="2">2</label>
+        </div>
+        <div class="form-radio">
+            <input type="radio" name="More" id="more">
+            <label for="more">More than 2</label>
+        </div>
+        <div class="form-row">
+            <label for="select">My favourite fruit</label>
+            <select id="select" size="4">
 
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="plum">Plum</option>
+                <option value="pomegranate">Pomegranate</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label for="brochure">Would you like a brochure</label>
+            <input type="checkbox" name="brochure" id="brochure">
+        </div>
+        <div class="form-row">
+            <label for="submit"></label>
+            <input type="submit" name="submit" id="submit">
+        </div>
+    </div>
+</form>
 </body>
 </html>
