@@ -23,7 +23,8 @@ form{
     width: 200px;
     text-align: right;
     margin-top: 5px;
+    padding: 5px;
 }
-.form-radio{
-  margin-left: 204px;
+.radio-container {
+    display: inline-block;
 }
