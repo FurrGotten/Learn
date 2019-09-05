@@ -1,0 +1,47 @@
+header{
+color: white;
+    background: #b1d0b0 ;
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+    width: 900px;
+}
+nav{
+    color: white;
+    background: #68be65;
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    width: 900px;
+}
+#sidebar{
+    font-size: 22px;
+    color: white;
+    background: #5992d7;
+    width: 200px;
+    height: 500px;
+    float: left;
+}
+#content{
+    font-size: 22px;
+    color: white;
+    background: #96b4da;
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+aside{
+    font-size: 22px;
+    color: white;
+    background: #5992d7;
+    height: 500px;
+    width: 200px;
+    float: left;
+}
+footer{
+    font-size: 22px;
+    color: white;
+    background: #b1d0b0;
+    clear: both;
+    width: 900px;
+}
