@@ -1,0 +1,9 @@
+.content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #5992d7 url("img/Background__wf.png");
+    background-size: 100% auto;
+}
