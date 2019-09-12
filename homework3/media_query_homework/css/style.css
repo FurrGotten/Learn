@@ -6,6 +6,7 @@
     width: 1000px;
     font-size: 35px;
     color: white;
+    text-align: center;
 }
 .content{
     width: 200px;
@@ -21,7 +22,6 @@ background: #f6000c;
 }
 #second{
 background: #7e0c19;
-
 }
 #third{
 background: #57005a;
@@ -37,9 +37,8 @@ background: #136001;
 @media only screen and (max-width: 900px) {
     .container{
         width: 140px;
-        padding-left: 20px;
+        padding-left: 0px;
         padding-right: 0px;
-
     }
     .content{
         width: 100px;
