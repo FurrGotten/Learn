@@ -1,0 +1,52 @@
+.container{
+    border: black solid 2px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 500px;
+    width: 1000px;
+    font-size: 35px;
+    color: white;
+}
+.content{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+
+}
+#first{
+background: #f6000c;
+}
+#second{
+background: #7e0c19;
+
+}
+#third{
+background: #57005a;
+}
+#fourth{
+background: #136001;
+}
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+    .container{
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .container{
+        width: 140px;
+        padding-left: 20px;
+        padding-right: 0px;
+
+    }
+    .content{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        line-height: 100px;
+    }
+}
+
+
