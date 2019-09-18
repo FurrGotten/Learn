@@ -1,0 +1,56 @@
+html{
+    font-family: Arial, sans-serif;
+    line-height: 25px;
+    color: white;
+}
+body{
+    background: url("img/aurora-borealis-sky-wallpaper-1920x1080.jpg");
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section1, .section3{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    padding-top: 100px;
+    height: 250px;
+    width: 800px;
+}
+div .icon{
+    height: 70px;
+}
+h1 {
+    font-weight:normal;
+}
+button{
+    margin-top: 40px;
+    border: solid white 1px;
+    background: transparent;
+    color: white;
+    height: 36px;
+    width: 200px;
+    border-radius: 18px;
+}
+.bottom{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+}
