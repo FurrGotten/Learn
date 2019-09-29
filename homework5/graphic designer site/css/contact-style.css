@@ -1,0 +1,16 @@
+#inputComment{
+    height: 220px;
+}
+.map-background{
+    height: 400px;
+    background: #e0e0e0;
+}
+.home-link{
+    color: black;
+}
+.about-link{
+    color: black;
+}
+.contact-link{
+    color: #21bfb9;
+}

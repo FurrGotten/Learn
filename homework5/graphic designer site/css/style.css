@@ -4,8 +4,6 @@
 .header-background{
     background: #f6f6f6;
 }
-.work-container{
-}
 .text-container{
     height: 200px;
 }
@@ -18,6 +16,9 @@
 }
 .gray{
     background: #dddddd;
+}
+b{
+    color: black;
 }
 .work-container .col-3{
     padding-top:  20%;
