@@ -19,23 +19,20 @@
 .gray{
     background: #dddddd;
 }
-.gray img, .dark-gray img{
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
+.work-container .col-3{
+    padding-top:  20%;
 }
-.row div:hover{
+.work-container-cell:hover{
     background-image: url("../img/view.png");
     background-repeat: no-repeat;
     background-color: #21bfb9;
     background-position: center center;
     opacity: 0.5;
 }
-.dark-gray img:hover{
-
+li{
+    list-style-type: none;
 }
-.footer{
+footer{
     background: #141414;
 }
 @media (min-width: 576px){
