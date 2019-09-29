@@ -23,13 +23,8 @@ header {
     background: #dddddd;
 }
 
-.black-text {
-    color: black;
-}
-
 .work-container .col-3 {
     padding-top: 20%;
-    
 }
 
 .work-container-cell:hover {
