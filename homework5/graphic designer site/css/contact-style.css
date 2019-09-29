@@ -1,16 +1,20 @@
-#inputComment{
+#inputComment {
     height: 220px;
 }
-.map-background{
+
+.map-background {
     height: 400px;
     background: #e0e0e0;
 }
-.home-link{
+
+.home-link {
     color: black;
 }
-.about-link{
+
+.about-link {
     color: black;
 }
-.contact-link{
+
+.contact-link {
     color: #21bfb9;
 }
