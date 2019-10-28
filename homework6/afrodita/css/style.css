@@ -1,0 +1,84 @@
+.Title_back {
+    background-image: url("../img/Title_back.png");
+    background-size: cover;
+    width: 100%;
+    padding-top: 21%;
+}
+
+.Title_content {
+    margin-bottom: 21%;
+    font-size: 420%;
+    text-shadow: 1px 1px 2px black
+}
+
+.article_2_back {
+    height: 20%;
+    width: 80%;
+    background-color: rgba(131, 131, 131, .1);
+    margin-top: -175px;
+    margin-left: -75px;
+}
+
+.article_3__img {
+    margin-top: -250px;
+}
+
+.article_3_header {
+    font-size: 75px;
+}
+
+.article_3_back {
+    height: 75%;
+    width: 100%;
+    background-color: rgba(131, 131, 131, .1);
+    margin-top: -400px;
+    margin-left: -75px;
+    transform: rotate(70deg)
+}
+
+.singUp_back {
+    background-image: url("../img/newsletter.png");
+    background-size: cover;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.singUp_content {
+    text-shadow: 1px 1px 2px black
+}
+.singUp_content button{
+    border-radius: 20px;
+}
+.mei{
+    background-image: url("../img/MEI.png");
+    background-size: cover;
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+.cibo{
+    background-image: url("../img/CIBO.png");
+    background-size: cover;
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+.eum{
+    background-image: url("../img/EUM.png");
+    background-size: cover;
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+.eum, .cibo, .mei{
+    font-size: 75px;
+    text-shadow: 1px 1px 2px black
+}
+.article_4_back{
+    height: 60%;
+    width: 100%;
+    background-color: rgba(131, 131, 131, .1);
+    margin-top: -290px;
+    margin-left: -75px;
+}

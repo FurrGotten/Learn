@@ -13,4 +13,25 @@ const arrB = [1, 2, 'rainbow'];
 //const arrA = 1;
 
 console.log(isEqual(arrA, arrB));
+function Queue(initialValue) {
+    if (!new.target) {
+        console.log("Call me with new, please!");
+    }
+
+    if (Array.isArray(initialValue)) this.queue = initialValue
+    else if (initialValue === null || initialValue === undefined) this.queue = []
+    else this.queue = [initialValue]
+
+    this.enqueue = function(val) {
+        this.queue.unshift(val)
+    }
+
+    this.dequeue = function () {
+        return this.queue.pop()
+    }
+
+    this.show = function () {
+        return this.queue
+    }
+}
 
