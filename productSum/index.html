@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://kit.fontawesome.com/cb03cfc236.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<section class="container text-center p-0 mt-5" id="calc">
+    <div class="row m-0 bg-secondary text-light border border-dark">
+        <div class="col-4 pt-4 pb-4">Product</div>
+        <div class="col-4 border-left border-right border-dark pt-4 pb-4">Price</div>
+        <div class="col-4 pt-4 pb-4">Amount</div>
+    </div>
+    <div class="row m-0 bg-light  border border-dark">
+        <div class="col-4 pt-4 pb-4">Drink</div>
+        <div class="col-4 border-left border-right border-dark pt-4 pb-4"><input type="number" name="drinkPrice" id="dp" value="0"></div>
+        <div class="col-4 pt-4 pb-4"><input type="number" name="drinkAmount" id="da" value="1"></div>
+    </div>
+    <div class="row m-0  border border-dark">
+        <div class="col-4 pt-4 pb-4">Bread</div>
+        <div class="col-4 border-left border-right border-dark pt-4 pb-4"><input type="number" name="bredPrice" id="bp" value="0"></div>
+        <div class="col-4 pt-4 pb-4"><input type="number" name="breadAmount" id="ba" value="1"></div>
+    </div>
+    <div class="row m-0 bg-light border border-dark">
+        <div class="col-4 pt-4 pb-4">Fruit</div>
+        <div class="col-4 border-left border-right border-dark pt-4 pb-4"><input type="number" name="fruitPrice" id="fp" value="0"></div>
+        <div class="col-4 pt-4 pb-4"><input type="number" name="fruitAmount" id="fa" value="1"></div>
+    </div>
+    <div class="row">
+        <div class="col-5 offset-7 text-left">Total: <p id="totalId"></p></div>
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
