@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<section class="container text-center p-0 mt-5" id="calc">
+    <div class="row m-0 bg-secondary text-light border border-dark">
+        <div class="col-3 pt-4 pb-4">Product</div>
+        <div class="col-3 border-left border-right border-dark pt-4 pb-4">Price</div>
+        <div class="col-3 border-right border-dark pt-4 pb-4">Amount</div>
+        <div class="col-3 pt-4 pb-4">Action</div>
+    </div>
+    <div class="row m-0 bg-light addPoint border border-dark">
+        <div class="col-3 pt-4 pb-4"><input type="text" name="name" id="name"></div>
+        <div class="col-3 border-left border-right border-dark pt-4 pb-4"><input type="number" name="price" id="price" value="0"></div>
+        <div class="col-3 border-right border-dark pt-4 pb-4"><input type="number" name="amount" id="amount" value="1"></div>
+        <div class="col-3 pt-4 pb-4"><input class="col-5 calc" type="button" value="Remove" id="deleteLine"></div>
+    </div>
+    <div class="container-fluid col-12" id="addBody"></div>
+    <div class="row m-5">
+        <div class="col-5 calc row" id="adderBox"><input class="col-12" type="button" value="Calculate" id="adder"></div>
+        <div class="col-2 offset-2 text-left">Total: </div><p class="col-1" id="totalId"></p>
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
