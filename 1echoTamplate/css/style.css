@@ -1,0 +1,92 @@
+:root {
+    box-sizing: border-box;
+    font-size: calc(0.5vw + 7px);
+}
+
+.upper_segment {
+    background-image: url("../images/enyo_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arrow_ico {
+    height: 0.8em;
+}
+
+.logo_icon {
+    font-size: 1.4em;
+}
+
+.nav_dropdown_button {
+    display: none;
+}
+.feacherImg{
+    width: 100%;
+}
+.feacherText{
+    display: none;
+}
+@media (max-width: 700px) {
+    .nav_dropdown_button {
+        display: block;
+    }
+
+    .arrow_ico {
+        display: none;
+    }
+
+    .find {
+        display: none;
+    }
+
+    .nav_dropdownMenu {
+        display: none;
+    }.feacherText{
+         display: block;
+         }
+    .feacherImg{
+        display: none;
+    }
+}
+.home_button {
+    border: none;
+    border-radius: 100px;
+}
+.headerHead{
+    font-size: 4em;
+}
+.backText{
+    font-size: 8.2em;
+    margin-top: 5em;
+    margin-bottom: -0.75em;
+}
+.mac_background{
+    background-image: url("../images/mac.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+.grayBack{
+    background-color: #f7f9fb;
+}
+.whiteBack{
+    background-color: white;
+}
+.addInfoIco{
+    font-size: 3em;
+}
+.blueHeader{
+    font-size: 3em;
+}
+.blueFond{
+    color: #25365d;
+}
+.supIco{
+    font-size: 4em;
+}
+.footer{
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 50vw;
+    }
